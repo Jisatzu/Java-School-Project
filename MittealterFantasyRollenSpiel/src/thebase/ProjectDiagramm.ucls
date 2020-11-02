@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="equipment.TheWeaponEquipment" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/equipment/TheWeaponEquipment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="336" x="1841" y="3090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="people.Player" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/people/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1269" width="297" x="1464" y="1408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="consumable.Potion" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/consumable/Potion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="209" x="2847" y="3090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="armor.Pants" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/armor/Pants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="183" x="484" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="actions.Fighting" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/actions/Fighting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="320" x="734" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="equipment.MaterialsForEquipment" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/equipment/MaterialsForEquipment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="945" width="329" x="1171" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="equipment.Equipment" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/equipment/Equipment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="278" x="1801" y="2717"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="consumable.FoodAndDrink" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/consumable/FoodAndDrink.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="248" x="3096" y="3090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="weapon.BluntWeapon" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/weapon/BluntWeapon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="261" x="1540" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="armor.Helmet" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/armor/Helmet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="188" x="943" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="thebase.HumanBeeing" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/thebase/HumanBeeing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="239" x="2024" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="armor.Chest" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/armor/Chest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="184" x="260" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="enemy.Enemies" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Enemies.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="186" x="734" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="equipment.Inventory" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/equipment/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1035" width="848" x="932" y="3090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="people.TheTownPeople" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/people/TheTownPeople.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="343" x="2573" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="weapon.SpearWeapon" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/weapon/SpearWeapon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="266" x="2363" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="weapon.Shield" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/weapon/Shield.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="185" x="1841" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="equipment.TheArmorEquipment" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/equipment/TheArmorEquipment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="326" x="892" y="4165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="weapon.AxeWeapon" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/weapon/AxeWeapon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="257" x="2066" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="weapon.SwordWeapon" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/weapon/SwordWeapon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="270" x="2669" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="thebase.TheGame" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/thebase/TheGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="125" x="740" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="bodyEquip.PouchForConsumable" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/bodyEquip/PouchForConsumable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="285" x="2679" y="2717"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="town.TownMajor" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/town/TownMajor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="331" x="2202" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="merchant.Weaponsmith" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/merchant/Weaponsmith.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="362" x="1801" y="1408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="25" language="java" name="equipment.MaterialsForEquipment.MaterialType" 
+    project="MittealterFantasyRollenSpiel" file="/MittealterFantasyRollenSpiel/src/equipment/MaterialsForEquipment.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="128" x="2960" y="5433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="26" language="java" name="armor.Gauntlet" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/armor/Gauntlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="196" x="707" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="merchant.Armorer" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/merchant/Armorer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="337" x="2203" y="1408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="armor.Boot" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/armor/Boot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="178" x="42" y="4448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="bodyEquip.HandEquipment" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/bodyEquip/HandEquipment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="321" x="1841" y="4165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="actions.Merchant" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/actions/Merchant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="482" x="2561" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="merchant.InnKeeper" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/merchant/InnKeeper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="346" x="2601" y="1408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="merchant.PotionDealer" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/merchant/PotionDealer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="357" x="2987" y="1408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="33" language="java" name="bodyEquip.PouchForConsumable.Consumable" 
+    project="MittealterFantasyRollenSpiel" file="/MittealterFantasyRollenSpiel/src/bodyEquip/PouchForConsumable.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="128" x="2679" y="3090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="34" language="java" name="town.Guard_NotImplemented" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/town/Guard_NotImplemented.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="377" x="3083" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="enemy.Bandit" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Bandit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="1032" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="skills.Skill" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/Skill.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="248" x="1330" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="37" language="java" name="skills.Positions" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/Positions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="142" x="960" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="38" language="java" name="enemy.Bandit_Archer" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Bandit_Archer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="115" x="1159" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="enemy.Hobgoblin" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Hobgoblin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="359" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="skills.SkillTree" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/SkillTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="498" x="119" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="skills.DEFSkills" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/DEFSkills.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="248" x="1755" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="enemy.Orc" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Orc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="613" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="enemy.Goblin" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Goblin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="905" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="enemy.Assasin" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Assasin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="1314" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="enemy.Pixie" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/enemy/Pixie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="486" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="skills.DMGSkills" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/DMGSkills.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="252" x="1463" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="skills.HYBRIDSkills" project="MittealterFantasyRollenSpiel" 
+    file="/MittealterFantasyRollenSpiel/src/skills/HYBRIDSkills.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="281" x="1142" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="51">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="52" name="chest">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <nesting id="55">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="33"/>  
+  </nesting>  
+  <generalization id="56">    
+    <bendpoint x="2033" y="1053"/>    
+    <bendpoint x="2033" y="590"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="58">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="59" name="inventoryList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="63" name="lefthand">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="66" name="pants">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="67" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="69" name="allArmor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="70" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <bendpoint x="901" y="3090"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="72">    
+    <bendpoint x="1207" y="2717"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="73" name="inventory">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="74" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="76" name="potionList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="79">    
+    <bendpoint x="1810" y="3090"/>    
+    <bendpoint x="1810" y="4165"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="80" name="material">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="84">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="85" name="righthand">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="87">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <generalization id="88">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="89">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="90" name="allWeapon">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <association id="97">    
+    <bendpoint x="2648" y="3090"/>    
+    <bendpoint x="2808" y="4165"/>    
+    <bendpoint x="2969" y="4448"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="98" name="matType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="99" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <association id="101">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="102" name="type">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="103" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="105" name="gauntlets">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="106" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <bendpoint x="3374" y="1408"/>    
+    <bendpoint x="3374" y="2717"/>    
+    <bendpoint x="3374" y="3090"/>    
+    <bendpoint x="3374" y="4165"/>    
+    <bendpoint x="3374" y="4448"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="108" name="matType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="109" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="111" name="playerList">        
+        <position height="0" width="0" x="-1266" y="-2276"/>      
+      </attribute>      
+      <multiplicity id="112" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-1266" y="-2276"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="114" name="potions">        
+        <position height="0" width="0" x="-310" y="-148"/>      
+      </attribute>      
+      <multiplicity id="115" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-310" y="-148"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="117">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="118" name="pos">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="119" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="121">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="122">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="123" name="material">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="124" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="125">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="126" name="bothhands">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="127" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <association id="129">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="130" name="enemieList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="131" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <bendpoint x="2054" y="1053"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="133" name="weaponsmith">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="134" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="136">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="138">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="139">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="140">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="141" name="consumableType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="142" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <bendpoint x="2212" y="1053"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="144" name="armorer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="145" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="147" name="boots">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="148" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="149">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <nesting id="150">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="153">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="154" name="townPeopleList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="155" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="156">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="157" name="helmet">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="158" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="159">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="160">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="161">    
+    <bendpoint x="2570" y="1408"/>    
+    <bendpoint x="2570" y="2717"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="162" name="ConsumType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="163" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
